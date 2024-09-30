@@ -38,37 +38,13 @@ class CollegeSpider(scrapy.Spider):
 
     
 # Choose the  file path from the saved list 
-    json_file_= json_file_paths[0]
-
-    # json_file_path = '/Users/rishabhsingh/Desktop/final_scraper/Data_Scraper/Datascraper/Datascraper/spiders/saved_fle.txt'
-
-    # Read the JSON file and extract URLs
-    # with open(json_file_path, 'r+') as file:
-    #     data = json.load(file)
-    #     last_college_url = data[-1]
-    #     data.insert(0,last_college_url)
-    #     print(last_college_url)
-    # with open(json_file_path, 'r+') as file:
-    #     data1 = json.load(file)
-    #     # print(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>old")
-    #     # print(data1)
-    #     last_college_url = data1[-1]
-    #     print(last_college_url)
-    #     data1.insert(0, last_college_url)
-    #     file.seek(0)
-    #     json.dump(data1, file, indent=4)
-    #     file.truncate()
-
-    # with open(json_file_, 'r') as file:
-    #     data = json.load(file)
-        
-    #     # print(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>new")
-    #     # print(data)
+    json_file= json_file_paths[0]
+    output_file = f'Output_{json_file}'
 
 
 # Get the directory of the current file (final_scraper.py)
     current_dir = os.path.dirname(__file__)
-    json_file_path = os.path.join(current_dir, 'jsonfolder', json_file_)
+    json_file_path = os.path.join(current_dir, 'jsonfolder', json_file)
 
 # Check if the file exists
     if os.path.exists(json_file_path):
@@ -154,10 +130,7 @@ class CollegeSpider(scrapy.Spider):
             # (self.all_data[college_name])['overall_review'] = str(check_div["overall_review"])
 
             self.all_data[college_name]['General_Info'] = self.parse_general_info(response, college_name)
-    
-        # if response.url == self.base_urls[-1]:
-        #     self.save_to_json() 
-            # self.all_data={}  
+ 
 
     def parse_general_info(self, response, college_name):
         content = []
@@ -507,6 +480,7 @@ class CollegeSpider(scrapy.Spider):
     def save_to_json(self):
         # Initialize an empty dictionary to hold all the data
         combined_data = {}
+        output_file = self.output_file
 
         for college_name, sections in self.all_data.items():
             # Prepare data for JSON serialization
@@ -537,7 +511,11 @@ class CollegeSpider(scrapy.Spider):
             combined_data[college_name] = serializable_data
             # print(combined_data)
         # Save all college data to one JSON file
-        output_file = f'{json_file}_output'
+        if os.path.isfile(output_file):
+            print("Found")
+        else:
+            print("Not Found")    
+        print(output_file)
         with open(output_file, 'a', encoding='utf-8') as json_file:
             file_exists = os.path.isfile(output_file)
             file_empty = file_exists and os.path.getsize(output_file) == 0
@@ -549,7 +527,7 @@ class CollegeSpider(scrapy.Spider):
 
 
     def closed(self, reason):
-        output_file = f'{json_file}_output'
+        output_file=self.output_file
         print("succesfull")
         if self.all_data:
             self.save_to_json()
@@ -563,9 +541,6 @@ class CollegeSpider(scrapy.Spider):
 
         # This method is called when the spider is closed
         # self.save_to_excel()
-        self.save_to_json()
+        # self.save_to_json()
 
-# If you want to run the spider, uncomment the following lines:
-# process = CrawlerProcess()
-# process.crawl(CollegeSpider)
-# process.start()
+
