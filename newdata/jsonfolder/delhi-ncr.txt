@@ -1,0 +1,122 @@
+[
+    {
+        "college_name": "IIT Delhi - Indian Institute of Technology [IITD], New Delhi",
+        "url": "https://collegedunia.com/university/25455-iit-delhi-indian-institute-of-technology-iitd-new-delhi"
+    },
+    {
+        "college_name": "FMS Delhi Faculty of Management Studies, New Delhi",
+        "url": "https://collegedunia.com/college/17600-fms-delhi-faculty-of-management-studies-new-delhi"
+    },
+    {
+        "college_name": "IIFT Delhi Indian Institute of Foreign Trade, New Delhi",
+        "url": "https://collegedunia.com/university/25453-iift-delhi-indian-institute-of-foreign-trade-new-delhi"
+    },
+    {
+        "college_name": "MDI Gurgaon, Gurgaon",
+        "url": "https://collegedunia.com/college/27696-mdi-gurgaon-gurgaon"
+    },
+    {
+        "college_name": "DMS - Department of Management Studies IIT, New Delhi",
+        "url": "https://collegedunia.com/college/17497-dms-department-of-management-studies-iit-new-delhi"
+    },
+    {
+        "college_name": "All India Institute of Medical Sciences - [AIIMS], New Delhi",
+        "url": "https://collegedunia.com/university/25446-all-india-institute-of-medical-sciences-aiims-new-delhi"
+    },
+    {
+        "college_name": "IIM Rohtak Indian Institute of Management, Rohtak",
+        "url": "https://collegedunia.com/university/25528-iim-rohtak-indian-institute-of-management-rohtak"
+    },
+    {
+        "college_name": "IMT - Institute of Management Technology, Ghaziabad",
+        "url": "https://collegedunia.com/college/18041-imt-institute-of-management-technology-ghaziabad"
+    },
+    {
+        "college_name": "Indian Agricultural Research Institute - [IARI], New Delhi",
+        "url": "https://collegedunia.com/university/25452-indian-agricultural-research-institute-iari-new-delhi"
+    },
+    {
+        "college_name": "IMI - International Management Institute, New Delhi",
+        "url": "https://collegedunia.com/college/18100-imi-international-management-institute-new-delhi"
+    },
+    {
+        "college_name": "Department of Business Economics, University of Delhi - [DBE], New Delhi",
+        "url": "https://collegedunia.com/college/28987-department-of-business-economics-university-of-delhi-dbe-new-delhi"
+    },
+    {
+        "college_name": "FORE School of Management - [FSM], New Delhi",
+        "url": "https://collegedunia.com/college/17613-fore-school-of-management-fsm-new-delhi"
+    },
+    {
+        "college_name": "Lady Shri Ram College for Women - [LSR], New Delhi",
+        "url": "https://collegedunia.com/college/2525-lady-shri-ram-college-for-women-lsr-new-delhi"
+    },
+    {
+        "college_name": "Birla Institute of Management Technology - [BIMTECH], Greater Noida",
+        "url": "https://collegedunia.com/college/17377-birla-institute-of-management-technology-bimtech-greater-noida"
+    },
+    {
+        "college_name": "LBSIM- Lal Bahadur Shastri Institute of Management, New Delhi",
+        "url": "https://collegedunia.com/college/18325-lbsim-lal-bahadur-shastri-institute-of-management-new-delhi"
+    },
+    {
+        "college_name": "Department of Commerce, University of Delhi, New Delhi",
+        "url": "https://collegedunia.com/college/58808-department-of-commerce-university-of-delhi-new-delhi"
+    },
+    {
+        "college_name": "Apeejay School of Management - [ASM], New Delhi",
+        "url": "https://collegedunia.com/college/17202-apeejay-school-of-management-asm-new-delhi"
+    },
+    {
+        "college_name": "National Law University - [NLU], New Delhi",
+        "url": "https://collegedunia.com/university/25465-national-law-university-nlu-new-delhi"
+    },
+    {
+        "college_name": "Great Lakes Institute of Management - [GLIM], Gurgaon",
+        "url": "https://collegedunia.com/college/28990-great-lakes-institute-of-management-glim-gurgaon"
+    },
+    {
+        "college_name": "Amity University, Noida",
+        "url": "https://collegedunia.com/university/54797-amity-university-noida"
+    },
+    {
+        "college_name": "Jamia Millia Islamia University-[JMI], New Delhi",
+        "url": "https://collegedunia.com/university/25460-jamia-millia-islamia-universityjmi-new-delhi"
+    },
+    {
+        "college_name": "School of Planning and Architecture - [SPA], New Delhi",
+        "url": "https://collegedunia.com/university/25469-school-of-planning-and-architecture-spa-new-delhi"
+    },
+    {
+        "college_name": "Institute of Management Studies - [IMS], Ghaziabad",
+        "url": "https://collegedunia.com/college/18036-institute-of-management-studies-ims-ghaziabad"
+    },
+    {
+        "college_name": "St Stephen's College, New Delhi",
+        "url": "https://collegedunia.com/college/4953-st-stephens-college-new-delhi"
+    },
+    {
+        "college_name": "Jagan Institute of Management Studies Technical Campus - [JIMS] Rohini, New Delhi",
+        "url": "https://collegedunia.com/college/18158-jagan-institute-of-management-studies-technical-campus-jims-rohini-new-delhi"
+    },
+    {
+        "college_name": "Fostiima Business School, New Delhi",
+        "url": "https://collegedunia.com/college/59583-fostiima-business-school-new-delhi"
+    },
+    {
+        "college_name": "Jaipuria Institute of Management, Noida",
+        "url": "https://collegedunia.com/college/18185-jaipuria-institute-of-management-noida"
+    },
+    {
+        "college_name": "Gitarattan International Business School- [GIBS], New Delhi",
+        "url": "https://collegedunia.com/college/17675-gitarattan-international-business-school-gibs-new-delhi"
+    },
+    {
+        "college_name": "Asia Pacific Institute of Management - [AIM], New Delhi",
+        "url": "https://collegedunia.com/college/17247-asia-pacific-institute-of-management-aim-new-delhi"
+    },
+    {
+        "college_name": "Institute of Liver and Biliary Sciences - [ILBS], New Delhi",
+        "url": "https://collegedunia.com/university/25458-institute-of-liver-and-biliary-sciences-ilbs-new-delhi"
+    }
+]

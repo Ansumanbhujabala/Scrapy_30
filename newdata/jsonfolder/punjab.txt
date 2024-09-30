@@ -1,0 +1,122 @@
+[
+    {
+        "college_name": "IIM Amritsar - Indian Institute of Management, Amritsar",
+        "url": "https://collegedunia.com/university/55939-iim-amritsar-indian-institute-of-management-amritsar"
+    },
+    {
+        "college_name": "Post Graduate Institute of Medical Education & Research - [PGIMER], Chandigarh",
+        "url": "https://collegedunia.com/university/10842-post-graduate-institute-of-medical-education-and-research-pgimer-chandigarh"
+    },
+    {
+        "college_name": "University Business School, Panjab University - [UBS], Chandigarh",
+        "url": "https://collegedunia.com/college/19071-university-business-school-panjab-university-ubs-chandigarh"
+    },
+    {
+        "college_name": "Lovely Professional University - [LPU], Jalandhar",
+        "url": "https://collegedunia.com/university/25787-lovely-professional-university-lpu-jalandhar"
+    },
+    {
+        "college_name": "Chandigarh University - [CU], Chandigarh",
+        "url": "https://collegedunia.com/university/25777-chandigarh-university-cu-chandigarh"
+    },
+    {
+        "college_name": "Panjab University - [PU], Chandigarh",
+        "url": "https://collegedunia.com/university/25423-panjab-university-pu-chandigarh"
+    },
+    {
+        "college_name": "National Institute of Pharmaceutical Education and Research - [NIPER], Mohali",
+        "url": "https://collegedunia.com/college/9729-national-institute-of-pharmaceutical-education-and-research-niper-mohali"
+    },
+    {
+        "college_name": "Punjab Agricultural University - [PAU], Ludhiana",
+        "url": "https://collegedunia.com/university/25788-punjab-agricultural-university-pau-ludhiana"
+    },
+    {
+        "college_name": "LM Thapar School of Management, Derabassi, Chandigarh",
+        "url": "https://collegedunia.com/college/57202-lm-thapar-school-of-management-derabassi-chandigarh"
+    },
+    {
+        "college_name": "Chitkara University - [CU], Patiala",
+        "url": "https://collegedunia.com/university/25778-chitkara-university-cu-patiala"
+    },
+    {
+        "college_name": "Punjab College of Technical Education - [PCTE], Ludhiana",
+        "url": "https://collegedunia.com/college/18470-punjab-college-of-technical-education-pcte-ludhiana"
+    },
+    {
+        "college_name": "Christian Dental College, Ludhiana",
+        "url": "https://collegedunia.com/college/7572-christian-dental-college-ludhiana"
+    },
+    {
+        "college_name": "Christian Medical College - [CMC], Ludhiana",
+        "url": "https://collegedunia.com/college/7573-christian-medical-college-cmc-ludhiana"
+    },
+    {
+        "college_name": "Dr.Ambedkar Institute of Hotel Management Catering and Nutrition - [IHM], Chandigarh",
+        "url": "https://collegedunia.com/college/7898-drambedkar-institute-of-hotel-management-catering-and-nutrition-ihm-chandigarh"
+    },
+    {
+        "college_name": "Thapar Institute of Engineering and Technology - [Thapar University], Patiala",
+        "url": "https://collegedunia.com/university/25795-thapar-institute-of-engineering-and-technology-thapar-university-patiala"
+    },
+    {
+        "college_name": "Rajiv Gandhi National University of Law - [RGNUL], Patiala",
+        "url": "https://collegedunia.com/university/25791-rajiv-gandhi-national-university-of-law-rgnul-patiala"
+    },
+    {
+        "college_name": "Dayanand Medical College and Hospital - [DMCH], Ludhiana",
+        "url": "https://collegedunia.com/college/10372-dayanand-medical-college-and-hospital-dmch-ludhiana"
+    },
+    {
+        "college_name": "Gian Jyoti Institute of Management and Technology - [GJIMT], Mohali",
+        "url": "https://collegedunia.com/college/17673-gian-jyoti-institute-of-management-and-technology-gjimt-mohali"
+    },
+    {
+        "college_name": "Chandigarh Business School of Administration - [CBSA] Landran, Mohali",
+        "url": "https://collegedunia.com/college/17452-chandigarh-business-school-of-administration-cbsa-landran-mohali"
+    },
+    {
+        "college_name": "IIT Ropar - Indian Institute of Technology - [IITR], Ropar",
+        "url": "https://collegedunia.com/university/25786-iit-ropar-indian-institute-of-technology-iitr-ropar"
+    },
+    {
+        "college_name": "Institute of Hotel Management - [IHM], Gurdaspur",
+        "url": "https://collegedunia.com/college/7966-institute-of-hotel-management-ihm-gurdaspur"
+    },
+    {
+        "college_name": "Government Medical College and Hospital - [GMCH], Chandigarh",
+        "url": "https://collegedunia.com/college/10471-government-medical-college-and-hospital-gmch-chandigarh"
+    },
+    {
+        "college_name": "Kamla Nehru College for Women - [KNC], Kapurthala",
+        "url": "https://collegedunia.com/college/2321-kamla-nehru-college-for-women-knc-kapurthala"
+    },
+    {
+        "college_name": "Baba Farid College of Management and Technology - [BFCMT], Bathinda",
+        "url": "https://collegedunia.com/college/17308-baba-farid-college-of-management-and-technology-bfcmt-bathinda"
+    },
+    {
+        "college_name": "Chandigarh Institute of Hotel Management and Catering Technology - [CIHMCT], Chandigarh",
+        "url": "https://collegedunia.com/college/7876-chandigarh-institute-of-hotel-management-and-catering-technology-cihmct-chandigarh"
+    },
+    {
+        "college_name": "Army Institute of Law - [AIL], Mohali",
+        "url": "https://collegedunia.com/college/8595-army-institute-of-law-ail-mohali"
+    },
+    {
+        "college_name": "Government Home Science College, Chandigarh",
+        "url": "https://collegedunia.com/college/1610-government-home-science-college-chandigarh"
+    },
+    {
+        "college_name": "ISF College of pharmacy, Moga",
+        "url": "https://collegedunia.com/college/9501-isf-college-of-pharmacy-moga"
+    },
+    {
+        "college_name": "University Institute of Legal Studies, Panjab University, Chandigarh",
+        "url": "https://collegedunia.com/college/9152-university-institute-of-legal-studies-panjab-university-chandigarh"
+    },
+    {
+        "college_name": "Department of Laws Panjab University, Chandigarh",
+        "url": "https://collegedunia.com/college/28268-department-of-laws-panjab-university-chandigarh"
+    }
+]

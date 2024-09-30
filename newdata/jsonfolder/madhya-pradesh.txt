@@ -1,0 +1,122 @@
+[
+    {
+        "college_name": "IIMI - Indian Institute of Management, Indore",
+        "url": "https://collegedunia.com/university/25665-iimi-indian-institute-of-management-indore"
+    },
+    {
+        "college_name": "Indian Institute of Forest Management - [IIFM], Bhopal",
+        "url": "https://collegedunia.com/college/17873-indian-institute-of-forest-management-iifm-bhopal"
+    },
+    {
+        "college_name": "Prestige Institute of Management and Research - [PIMR], Indore",
+        "url": "https://collegedunia.com/college/16101-prestige-institute-of-management-and-research-pimr-indore"
+    },
+    {
+        "college_name": "IIT Indore - Indian Institute of Technology - [IITI], Indore",
+        "url": "https://collegedunia.com/university/25666-iit-indore-indian-institute-of-technology-iiti-indore"
+    },
+    {
+        "college_name": "School of Planning and Architecture - [SPA], Bhopal",
+        "url": "https://collegedunia.com/college/5673-school-of-planning-and-architecture-spa-bhopal"
+    },
+    {
+        "college_name": "Govindram Seksaria Institute of Management & Research - [GSIMR], Indore",
+        "url": "https://collegedunia.com/college/17717-govindram-seksaria-institute-of-management-and-research-gsimr-indore"
+    },
+    {
+        "college_name": "Prestige Institute of Management & Research - [PIMRG], Gwalior",
+        "url": "https://collegedunia.com/college/18451-prestige-institute-of-management-and-research-pimrg-gwalior"
+    },
+    {
+        "college_name": "Institute of Business Management & Research - [IBMR], Indore",
+        "url": "https://collegedunia.com/college/56147-institute-of-business-management-and-research-ibmr-indore"
+    },
+    {
+        "college_name": "Jaipuria Institute of Management, Indore",
+        "url": "https://collegedunia.com/college/18182-jaipuria-institute-of-management-indore"
+    },
+    {
+        "college_name": "Amity University, Gwalior",
+        "url": "https://collegedunia.com/university/25658-amity-university-gwalior"
+    },
+    {
+        "college_name": "National Law Institute University - [NLIU], Bhopal",
+        "url": "https://collegedunia.com/university/25686-national-law-institute-university-nliu-bhopal"
+    },
+    {
+        "college_name": "Institute of Hotel Management - [IHM], Gwalior",
+        "url": "https://collegedunia.com/college/7968-institute-of-hotel-management-ihm-gwalior"
+    },
+    {
+        "college_name": "Institute of Hotel Management - [IHM], Bhopal",
+        "url": "https://collegedunia.com/college/55053-institute-of-hotel-management-ihm-bhopal"
+    },
+    {
+        "college_name": "Prestige Institute of Management and Research, Dewas",
+        "url": "https://collegedunia.com/college/18452-prestige-institute-of-management-and-research-dewas"
+    },
+    {
+        "college_name": "Jagran Lake City Business School, Bhopal",
+        "url": "https://collegedunia.com/college/58668-jagran-lake-city-business-school-bhopal"
+    },
+    {
+        "college_name": "Indore Institute of Law - [IIL], Indore",
+        "url": "https://collegedunia.com/college/8797-indore-institute-of-law-iil-indore"
+    },
+    {
+        "college_name": "Maulana Azad National Institute of Technology - [MANIT], Bhopal",
+        "url": "https://collegedunia.com/university/25679-maulana-azad-national-institute-of-technology-manit-bhopal"
+    },
+    {
+        "college_name": "Shri Vaishnav Institute of Management and Science - [SVIMS], Indore",
+        "url": "https://collegedunia.com/college/58581-shri-vaishnav-institute-of-management-and-science-svims-indore"
+    },
+    {
+        "college_name": "People's Institute of Management & Research - [PIMR], Bhopal",
+        "url": "https://collegedunia.com/college/24361-peoples-institute-of-management-and-research-pimr-bhopal"
+    },
+    {
+        "college_name": "Indore Management Institute and Research Centre - [IMI], Indore",
+        "url": "https://collegedunia.com/college/59408-indore-management-institute-and-research-centre-imi-indore"
+    },
+    {
+        "college_name": "Vidyasagar Institute of Management - [VIM], Bhopal",
+        "url": "https://collegedunia.com/college/28232-vidyasagar-institute-of-management-vim-bhopal"
+    },
+    {
+        "college_name": "Sagar Institute of Research and Technology - [SIRT], Bhopal",
+        "url": "https://collegedunia.com/college/14886-sagar-institute-of-research-and-technology-sirt-bhopal"
+    },
+    {
+        "college_name": "Indian Institute of Information Technology Design and Manufacturing - [IIITDM], Jabalpur",
+        "url": "https://collegedunia.com/university/5843-indian-institute-of-information-technology-design-and-manufacturing-iiitdm-jabalpur"
+    },
+    {
+        "college_name": "Kamla Nehru Mahavidyalaya, Bhopal",
+        "url": "https://collegedunia.com/college/21021-kamla-nehru-mahavidyalaya-bhopal"
+    },
+    {
+        "college_name": "Atal Bihari Vajpayee Indian Institute of Information Technology and Management - [ABVIIITM], Gwalior",
+        "url": "https://collegedunia.com/university/25664-atal-bihari-vajpayee-indian-institute-of-information-technology-and-management-abviiitm-gwalior"
+    },
+    {
+        "college_name": "Rabindranath Tagore University - [RNTU], Bhopal",
+        "url": "https://collegedunia.com/university/25656-rabindranath-tagore-university-rntu-bhopal"
+    },
+    {
+        "college_name": "Lal Bahadur Shastri Institute of Technology and Management - [LBSITM], Indore",
+        "url": "https://collegedunia.com/college/57355-lal-bahadur-shastri-institute-of-technology-and-management-lbsitm-indore"
+    },
+    {
+        "college_name": "B.R. Nahata College of Pharmacy - [BRNCP], Mandsaur",
+        "url": "https://collegedunia.com/college/9280-br-nahata-college-of-pharmacy-brncp-mandsaur"
+    },
+    {
+        "college_name": "Rajeev Gandhi College, Bhopal",
+        "url": "https://collegedunia.com/college/3639-rajeev-gandhi-college-bhopal"
+    },
+    {
+        "college_name": "Jawaharlal Nehru Krishi Vishwa Vidyalaya - [JNKVV], Jabalpur",
+        "url": "https://collegedunia.com/university/25669-jawaharlal-nehru-krishi-vishwa-vidyalaya-jnkvv-jabalpur"
+    }
+]
