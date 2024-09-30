@@ -24,7 +24,6 @@ class CollegeSpider(scrapy.Spider):
 
     # saved_file_path = 'saved_file.txt'
     saved_file_path = os.path.join(current_dir, 'saved_file.txt')
-    # Function to read file paths from saved_file.txt
     def get_file_paths(saved_file_path):
         with open(saved_file_path, 'r') as file:
             # Read all lines and strip out newlines/whitespace
@@ -33,12 +32,9 @@ class CollegeSpider(scrapy.Spider):
 
     # Get the list of JSON file paths from saved_file.txt
     json_file_paths = get_file_paths(saved_file_path)
-    print(json_file_paths)
 
-
-    
-# Choose the  file path from the saved list 
     json_file= json_file_paths[0]
+
     output_file = f'Output_{json_file}'
 
 
@@ -72,7 +68,6 @@ class CollegeSpider(scrapy.Spider):
 
     def start_requests(self):
         for url in self.start_urls:
-            print(self.start_urls)
             yield scrapy.Request(url=url, callback=self.parse)
 
 
@@ -515,7 +510,7 @@ class CollegeSpider(scrapy.Spider):
             print("Found")
         else:
             print("Not Found")    
-        print(output_file)
+
         with open(output_file, 'a', encoding='utf-8') as json_file:
             file_exists = os.path.isfile(output_file)
             file_empty = file_exists and os.path.getsize(output_file) == 0
@@ -542,5 +537,8 @@ class CollegeSpider(scrapy.Spider):
         # This method is called when the spider is closed
         # self.save_to_excel()
         # self.save_to_json()
+        # process = CrawlerProcess()
+        # process.crawl(CollegeSpider)
+        # process.start()
 
 
