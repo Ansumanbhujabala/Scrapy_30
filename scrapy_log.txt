@@ -2128,3 +2128,534 @@ TypeError: object of type 'NoneType' has no len()
  'start_time': datetime.datetime(2024, 9, 30, 12, 4, 53, 659397, tzinfo=datetime.timezone.utc)}
 2024-09-30 17:38:54 [scrapy.core.engine] INFO: Spider closed (finished)
 2024-09-30 17:38:54 [root] INFO: Process finished
+2024-10-01 09:34:21 [scrapy.utils.log] INFO: Scrapy 2.11.2 started (bot: Datascraper)
+2024-10-01 09:34:21 [scrapy.utils.log] INFO: Versions: lxml 5.2.2.0, libxml2 2.12.6, cssselect 1.2.0, parsel 1.9.1, w3lib 2.2.1, Twisted 24.3.0, Python 3.12.3 (main, Sep 11 2024, 14:17:37) [GCC 13.2.0], pyOpenSSL 24.1.0 (OpenSSL 3.2.2 4 Jun 2024), cryptography 42.0.8, Platform Linux-6.8.0-45-generic-x86_64-with-glibc2.39
+2024-10-01 09:34:48 [scrapy.utils.log] INFO: Scrapy 2.11.2 started (bot: Datascraper)
+2024-10-01 09:34:48 [scrapy.utils.log] INFO: Versions: lxml 5.2.2.0, libxml2 2.12.6, cssselect 1.2.0, parsel 1.9.1, w3lib 2.2.1, Twisted 24.3.0, Python 3.12.3 (main, Sep 11 2024, 14:17:37) [GCC 13.2.0], pyOpenSSL 24.1.0 (OpenSSL 3.2.2 4 Jun 2024), cryptography 42.0.8, Platform Linux-6.8.0-45-generic-x86_64-with-glibc2.39
+2024-10-01 09:34:48 [scrapy.addons] INFO: Enabled addons:
+[]
+2024-10-01 09:34:48 [scrapy.extensions.telnet] INFO: Telnet Password: 6d31a75d80ddab02
+2024-10-01 09:34:48 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2024-10-01 09:34:48 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'Datascraper',
+ 'DOWNLOAD_DELAY': 5,
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_FILE': 'scrapy_log.txt',
+ 'LOG_LEVEL': 'INFO',
+ 'NEWSPIDER_MODULE': 'Datascraper.spiders',
+ 'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7',
+ 'SPIDER_MODULES': ['Datascraper.spiders'],
+ 'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor',
+ 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
+               '(KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
+2024-10-01 09:34:48 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2024-10-01 09:34:48 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2024-10-01 09:34:48 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2024-10-01 09:34:48 [scrapy.core.engine] INFO: Spider opened
+2024-10-01 09:34:48 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-10-01 09:34:48 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2024-10-01 09:34:50 [py.warnings] WARNING: /opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py:147: FutureWarning: Passing literal html to 'read_html' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+  df = pd.read_html(str(section))[0]
+
+2024-10-01 09:34:50 [py.warnings] WARNING: /opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py:471: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead.
+  df = df.applymap(lambda x: x.strip() if isinstance(x, str) else x)
+
+2024-10-01 09:34:50 [py.warnings] WARNING: /opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py:147: FutureWarning: Passing literal html to 'read_html' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+  df = pd.read_html(str(section))[0]
+
+2024-10-01 09:34:50 [py.warnings] WARNING: /opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py:471: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead.
+  df = df.applymap(lambda x: x.strip() if isinstance(x, str) else x)
+
+2024-10-01 09:34:50 [py.warnings] WARNING: /opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py:147: FutureWarning: Passing literal html to 'read_html' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+  df = pd.read_html(str(section))[0]
+
+2024-10-01 09:34:50 [py.warnings] WARNING: /opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py:471: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead.
+  df = df.applymap(lambda x: x.strip() if isinstance(x, str) else x)
+
+2024-10-01 09:34:50 [py.warnings] WARNING: /opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py:147: FutureWarning: Passing literal html to 'read_html' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+  df = pd.read_html(str(section))[0]
+
+2024-10-01 09:34:50 [py.warnings] WARNING: /opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py:471: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead.
+  df = df.applymap(lambda x: x.strip() if isinstance(x, str) else x)
+
+2024-10-01 09:34:55 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 https://collegedunia.com/college/56224-dr-b-r-ambedkar-institute-of-technology-port-blair/admission>: HTTP status code is not handled or not allowed
+2024-10-01 09:35:00 [scrapy.core.scraper] ERROR: Spider error processing <GET https://collegedunia.com/college/56224-dr-b-r-ambedkar-institute-of-technology-port-blair/placement> (referer: None)
+Traceback (most recent call last):
+  File "/opt/WORK/final_scraper-main/myenv/lib/python3.12/site-packages/twisted/internet/defer.py", line 1078, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py", line 99, in parse
+    self.all_data[college_name]['Placement'] = self.parse_placement(response, college_name)
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py", line 180, in parse_placement
+    soup = BeautifulSoup(content_html, 'html.parser')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/WORK/final_scraper-main/myenv/lib/python3.12/site-packages/bs4/__init__.py", line 315, in __init__
+    elif len(markup) <= 256 and (
+         ^^^^^^^^^^^
+TypeError: object of type 'NoneType' has no len()
+2024-10-01 09:35:27 [scrapy.core.scraper] ERROR: Spider error processing <GET https://collegedunia.com/college/56224-dr-b-r-ambedkar-institute-of-technology-port-blair/ranking> (referer: None)
+Traceback (most recent call last):
+  File "/opt/WORK/final_scraper-main/myenv/lib/python3.12/site-packages/twisted/internet/defer.py", line 1078, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py", line 107, in parse
+    self.all_data[college_name]['Ranking'] = self.parse_ranking(response, college_name)
+                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py", line 293, in parse_ranking
+    soup = BeautifulSoup(content_html, 'html.parser')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/WORK/final_scraper-main/myenv/lib/python3.12/site-packages/bs4/__init__.py", line 315, in __init__
+    elif len(markup) <= 256 and (
+         ^^^^^^^^^^^
+TypeError: object of type 'NoneType' has no len()
+2024-10-01 09:35:33 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 https://collegedunia.com/college/56224-dr-b-r-ambedkar-institute-of-technology-port-blair/cutoff>: HTTP status code is not handled or not allowed
+2024-10-01 09:35:41 [py.warnings] WARNING: /opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py:147: FutureWarning: Passing literal html to 'read_html' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+  df = pd.read_html(str(section))[0]
+
+2024-10-01 09:35:41 [py.warnings] WARNING: /opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py:471: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead.
+  df = df.applymap(lambda x: x.strip() if isinstance(x, str) else x)
+
+2024-10-01 09:35:47 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 https://collegedunia.com/college/2155-jawaharlal-nehru-rajkeeya-mahavidyalaya-jnrm-port-blair/admission>: HTTP status code is not handled or not allowed
+2024-10-01 09:35:48 [scrapy.extensions.logstats] INFO: Crawled 10 pages (at 10 pages/min), scraped 0 items (at 0 items/min)
+2024-10-01 09:35:54 [scrapy.core.scraper] ERROR: Spider error processing <GET https://collegedunia.com/college/2155-jawaharlal-nehru-rajkeeya-mahavidyalaya-jnrm-port-blair/placement> (referer: None)
+Traceback (most recent call last):
+  File "/opt/WORK/final_scraper-main/myenv/lib/python3.12/site-packages/twisted/internet/defer.py", line 1078, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py", line 99, in parse
+    self.all_data[college_name]['Placement'] = self.parse_placement(response, college_name)
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py", line 180, in parse_placement
+    soup = BeautifulSoup(content_html, 'html.parser')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/WORK/final_scraper-main/myenv/lib/python3.12/site-packages/bs4/__init__.py", line 315, in __init__
+    elif len(markup) <= 256 and (
+         ^^^^^^^^^^^
+TypeError: object of type 'NoneType' has no len()
+2024-10-01 09:36:14 [scrapy.core.scraper] ERROR: Spider error processing <GET https://collegedunia.com/college/2155-jawaharlal-nehru-rajkeeya-mahavidyalaya-jnrm-port-blair/hostel> (referer: None)
+Traceback (most recent call last):
+  File "/opt/WORK/final_scraper-main/myenv/lib/python3.12/site-packages/twisted/internet/defer.py", line 1078, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py", line 105, in parse
+    self.all_data[college_name]['Hostel'] = self.parse_hostel(response, college_name)
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py", line 270, in parse_hostel
+    soup = BeautifulSoup(content_html, 'html.parser')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/WORK/final_scraper-main/myenv/lib/python3.12/site-packages/bs4/__init__.py", line 315, in __init__
+    elif len(markup) <= 256 and (
+         ^^^^^^^^^^^
+TypeError: object of type 'NoneType' has no len()
+2024-10-01 09:36:20 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 https://collegedunia.com/college/2155-jawaharlal-nehru-rajkeeya-mahavidyalaya-jnrm-port-blair/ranking>: HTTP status code is not handled or not allowed
+2024-10-01 09:36:25 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 https://collegedunia.com/college/2155-jawaharlal-nehru-rajkeeya-mahavidyalaya-jnrm-port-blair/cutoff>: HTTP status code is not handled or not allowed
+2024-10-01 09:36:32 [scrapy.core.scraper] ERROR: Spider error processing <GET https://collegedunia.com/college/2804-mahatma-gandhi-government-college-mayabander> (referer: None)
+Traceback (most recent call last):
+  File "/opt/WORK/final_scraper-main/myenv/lib/python3.12/site-packages/twisted/internet/defer.py", line 1078, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py", line 127, in parse
+    self.all_data[college_name]['General_Info'] = self.parse_general_info(response, college_name)
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py", line 134, in parse_general_info
+    soup = BeautifulSoup(content_html, 'html.parser')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/WORK/final_scraper-main/myenv/lib/python3.12/site-packages/bs4/__init__.py", line 315, in __init__
+    elif len(markup) <= 256 and (
+         ^^^^^^^^^^^
+TypeError: object of type 'NoneType' has no len()
+2024-10-01 09:36:36 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 https://collegedunia.com/college/2804-mahatma-gandhi-government-college-mayabander/admission>: HTTP status code is not handled or not allowed
+2024-10-01 09:36:43 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 https://collegedunia.com/college/2804-mahatma-gandhi-government-college-mayabander/placement>: HTTP status code is not handled or not allowed
+2024-10-01 09:36:48 [scrapy.extensions.logstats] INFO: Crawled 19 pages (at 9 pages/min), scraped 0 items (at 0 items/min)
+2024-10-01 09:37:00 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 https://collegedunia.com/college/2804-mahatma-gandhi-government-college-mayabander/hostel>: HTTP status code is not handled or not allowed
+2024-10-01 09:37:07 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 https://collegedunia.com/college/2804-mahatma-gandhi-government-college-mayabander/ranking>: HTTP status code is not handled or not allowed
+2024-10-01 09:37:11 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 https://collegedunia.com/college/2804-mahatma-gandhi-government-college-mayabander/cutoff>: HTTP status code is not handled or not allowed
+2024-10-01 09:37:19 [py.warnings] WARNING: /opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py:147: FutureWarning: Passing literal html to 'read_html' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+  df = pd.read_html(str(section))[0]
+
+2024-10-01 09:37:19 [py.warnings] WARNING: /opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py:471: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead.
+  df = df.applymap(lambda x: x.strip() if isinstance(x, str) else x)
+
+2024-10-01 09:37:25 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 https://collegedunia.com/college/23362-tagore-government-college-of-education-port-blair/admission>: HTTP status code is not handled or not allowed
+2024-10-01 09:37:30 [scrapy.core.scraper] ERROR: Spider error processing <GET https://collegedunia.com/college/23362-tagore-government-college-of-education-port-blair/placement> (referer: None)
+Traceback (most recent call last):
+  File "/opt/WORK/final_scraper-main/myenv/lib/python3.12/site-packages/twisted/internet/defer.py", line 1078, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py", line 99, in parse
+    self.all_data[college_name]['Placement'] = self.parse_placement(response, college_name)
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py", line 180, in parse_placement
+    soup = BeautifulSoup(content_html, 'html.parser')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/WORK/final_scraper-main/myenv/lib/python3.12/site-packages/bs4/__init__.py", line 315, in __init__
+    elif len(markup) <= 256 and (
+         ^^^^^^^^^^^
+TypeError: object of type 'NoneType' has no len()
+2024-10-01 09:37:44 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 https://collegedunia.com/college/23362-tagore-government-college-of-education-port-blair/hostel>: HTTP status code is not handled or not allowed
+2024-10-01 09:37:48 [scrapy.extensions.logstats] INFO: Crawled 30 pages (at 11 pages/min), scraped 0 items (at 0 items/min)
+2024-10-01 09:37:50 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 https://collegedunia.com/college/23362-tagore-government-college-of-education-port-blair/ranking>: HTTP status code is not handled or not allowed
+2024-10-01 09:37:57 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 https://collegedunia.com/college/23362-tagore-government-college-of-education-port-blair/cutoff>: HTTP status code is not handled or not allowed
+2024-10-01 09:38:04 [py.warnings] WARNING: /opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py:147: FutureWarning: Passing literal html to 'read_html' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+  df = pd.read_html(str(section))[0]
+
+2024-10-01 09:38:04 [py.warnings] WARNING: /opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py:471: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead.
+  df = df.applymap(lambda x: x.strip() if isinstance(x, str) else x)
+
+2024-10-01 09:38:04 [py.warnings] WARNING: /opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py:147: FutureWarning: Passing literal html to 'read_html' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+  df = pd.read_html(str(section))[0]
+
+2024-10-01 09:38:04 [py.warnings] WARNING: /opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py:471: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead.
+  df = df.applymap(lambda x: x.strip() if isinstance(x, str) else x)
+
+2024-10-01 09:38:04 [py.warnings] WARNING: /opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py:147: FutureWarning: Passing literal html to 'read_html' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+  df = pd.read_html(str(section))[0]
+
+2024-10-01 09:38:04 [py.warnings] WARNING: /opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py:471: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead.
+  df = df.applymap(lambda x: x.strip() if isinstance(x, str) else x)
+
+2024-10-01 09:38:12 [scrapy.core.scraper] ERROR: Spider error processing <GET https://collegedunia.com/college/59214-andaman-and-nicobar-islands-institute-of-medical-sciences-aniims-port-blair/placement> (referer: None)
+Traceback (most recent call last):
+  File "/opt/WORK/final_scraper-main/myenv/lib/python3.12/site-packages/twisted/internet/defer.py", line 1078, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py", line 99, in parse
+    self.all_data[college_name]['Placement'] = self.parse_placement(response, college_name)
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py", line 180, in parse_placement
+    soup = BeautifulSoup(content_html, 'html.parser')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/WORK/final_scraper-main/myenv/lib/python3.12/site-packages/bs4/__init__.py", line 315, in __init__
+    elif len(markup) <= 256 and (
+         ^^^^^^^^^^^
+TypeError: object of type 'NoneType' has no len()
+2024-10-01 09:38:29 [py.warnings] WARNING: /opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py:283: FutureWarning: Passing literal html to 'read_html' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+  df = pd.read_html(str(section))[0]
+
+2024-10-01 09:38:29 [py.warnings] WARNING: /opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py:471: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead.
+  df = df.applymap(lambda x: x.strip() if isinstance(x, str) else x)
+
+2024-10-01 09:38:35 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 https://collegedunia.com/college/59214-andaman-and-nicobar-islands-institute-of-medical-sciences-aniims-port-blair/ranking>: HTTP status code is not handled or not allowed
+2024-10-01 09:38:41 [py.warnings] WARNING: /opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py:216: FutureWarning: Passing literal html to 'read_html' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+  df = pd.read_html(str(section))[0]
+
+2024-10-01 09:38:41 [py.warnings] WARNING: /opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py:471: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead.
+  df = df.applymap(lambda x: x.strip() if isinstance(x, str) else x)
+
+2024-10-01 09:38:41 [scrapy.core.engine] INFO: Closing spider (finished)
+2024-10-01 09:38:41 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 14878,
+ 'downloader/request_count': 40,
+ 'downloader/request_method_count/GET': 40,
+ 'downloader/response_bytes': 3465158,
+ 'downloader/response_count': 40,
+ 'downloader/response_status_count/200': 25,
+ 'downloader/response_status_count/404': 15,
+ 'elapsed_time_seconds': 232.221089,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2024, 10, 1, 4, 8, 41, 185884, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 18077092,
+ 'httpcompression/response_count': 40,
+ 'httperror/response_ignored_count': 15,
+ 'httperror/response_ignored_status_count/404': 15,
+ 'log_count/ERROR': 7,
+ 'log_count/INFO': 28,
+ 'log_count/WARNING': 22,
+ 'memusage/max': 135417856,
+ 'memusage/startup': 104378368,
+ 'response_received_count': 40,
+ 'scheduler/dequeued': 40,
+ 'scheduler/dequeued/memory': 40,
+ 'scheduler/enqueued': 40,
+ 'scheduler/enqueued/memory': 40,
+ 'spider_exceptions/TypeError': 7,
+ 'start_time': datetime.datetime(2024, 10, 1, 4, 4, 48, 964795, tzinfo=datetime.timezone.utc)}
+2024-10-01 09:38:41 [scrapy.core.engine] INFO: Spider closed (finished)
+2024-10-01 10:27:52 [scrapy.utils.log] INFO: Scrapy 2.11.2 started (bot: Datascraper)
+2024-10-01 10:27:52 [scrapy.utils.log] INFO: Versions: lxml 5.2.2.0, libxml2 2.12.6, cssselect 1.2.0, parsel 1.9.1, w3lib 2.2.1, Twisted 24.3.0, Python 3.12.3 (main, Sep 11 2024, 14:17:37) [GCC 13.2.0], pyOpenSSL 24.1.0 (OpenSSL 3.2.2 4 Jun 2024), cryptography 42.0.8, Platform Linux-6.8.0-45-generic-x86_64-with-glibc2.39
+2024-10-01 10:27:52 [root] INFO: Crawler process created
+2024-10-01 10:27:52 [scrapy.addons] INFO: Enabled addons:
+[]
+2024-10-01 10:27:52 [scrapy.extensions.telnet] INFO: Telnet Password: 6efeef9f16b7b172
+2024-10-01 10:27:52 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2024-10-01 10:27:52 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'Datascraper',
+ 'DOWNLOAD_DELAY': 5,
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_FILE': 'scrapy_log.txt',
+ 'LOG_LEVEL': 'INFO',
+ 'NEWSPIDER_MODULE': 'Datascraper.spiders',
+ 'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7',
+ 'SPIDER_MODULES': ['Datascraper.spiders'],
+ 'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor',
+ 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
+               '(KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
+2024-10-01 10:27:52 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2024-10-01 10:27:52 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2024-10-01 10:27:52 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2024-10-01 10:27:52 [scrapy.core.engine] INFO: Spider opened
+2024-10-01 10:27:52 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-10-01 10:27:52 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2024-10-01 10:27:52 [root] INFO: Crawl started
+2024-10-01 10:27:52 [py.warnings] WARNING: /opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py:147: FutureWarning: Passing literal html to 'read_html' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+  df = pd.read_html(str(section))[0]
+
+2024-10-01 10:27:52 [py.warnings] WARNING: /opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py:471: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead.
+  df = df.applymap(lambda x: x.strip() if isinstance(x, str) else x)
+
+2024-10-01 10:27:52 [py.warnings] WARNING: /opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py:147: FutureWarning: Passing literal html to 'read_html' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+  df = pd.read_html(str(section))[0]
+
+2024-10-01 10:27:53 [py.warnings] WARNING: /opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py:471: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead.
+  df = df.applymap(lambda x: x.strip() if isinstance(x, str) else x)
+
+2024-10-01 10:27:53 [py.warnings] WARNING: /opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py:147: FutureWarning: Passing literal html to 'read_html' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+  df = pd.read_html(str(section))[0]
+
+2024-10-01 10:27:53 [py.warnings] WARNING: /opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py:471: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead.
+  df = df.applymap(lambda x: x.strip() if isinstance(x, str) else x)
+
+2024-10-01 10:27:53 [py.warnings] WARNING: /opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py:147: FutureWarning: Passing literal html to 'read_html' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+  df = pd.read_html(str(section))[0]
+
+2024-10-01 10:27:53 [py.warnings] WARNING: /opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py:471: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead.
+  df = df.applymap(lambda x: x.strip() if isinstance(x, str) else x)
+
+2024-10-01 10:27:56 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 https://collegedunia.com/college/56224-dr-b-r-ambedkar-institute-of-technology-port-blair/admission>: HTTP status code is not handled or not allowed
+2024-10-01 10:28:00 [scrapy.core.scraper] ERROR: Spider error processing <GET https://collegedunia.com/college/56224-dr-b-r-ambedkar-institute-of-technology-port-blair/placement> (referer: None)
+Traceback (most recent call last):
+  File "/opt/WORK/final_scraper-main/myenv/lib/python3.12/site-packages/twisted/internet/defer.py", line 1078, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py", line 99, in parse
+    self.all_data[college_name]['Placement'] = self.parse_placement(response, college_name)
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py", line 180, in parse_placement
+    soup = BeautifulSoup(content_html, 'html.parser')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/WORK/final_scraper-main/myenv/lib/python3.12/site-packages/bs4/__init__.py", line 315, in __init__
+    elif len(markup) <= 256 and (
+         ^^^^^^^^^^^
+TypeError: object of type 'NoneType' has no len()
+2024-10-01 10:28:23 [scrapy.core.scraper] ERROR: Spider error processing <GET https://collegedunia.com/college/56224-dr-b-r-ambedkar-institute-of-technology-port-blair/ranking> (referer: None)
+Traceback (most recent call last):
+  File "/opt/WORK/final_scraper-main/myenv/lib/python3.12/site-packages/twisted/internet/defer.py", line 1078, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py", line 107, in parse
+    self.all_data[college_name]['Ranking'] = self.parse_ranking(response, college_name)
+                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py", line 293, in parse_ranking
+    soup = BeautifulSoup(content_html, 'html.parser')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/WORK/final_scraper-main/myenv/lib/python3.12/site-packages/bs4/__init__.py", line 315, in __init__
+    elif len(markup) <= 256 and (
+         ^^^^^^^^^^^
+TypeError: object of type 'NoneType' has no len()
+2024-10-01 10:28:30 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 https://collegedunia.com/college/56224-dr-b-r-ambedkar-institute-of-technology-port-blair/cutoff>: HTTP status code is not handled or not allowed
+2024-10-01 10:28:34 [py.warnings] WARNING: /opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py:147: FutureWarning: Passing literal html to 'read_html' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+  df = pd.read_html(str(section))[0]
+
+2024-10-01 10:28:34 [py.warnings] WARNING: /opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py:471: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead.
+  df = df.applymap(lambda x: x.strip() if isinstance(x, str) else x)
+
+2024-10-01 10:28:38 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 https://collegedunia.com/college/2155-jawaharlal-nehru-rajkeeya-mahavidyalaya-jnrm-port-blair/admission>: HTTP status code is not handled or not allowed
+2024-10-01 10:28:45 [scrapy.core.scraper] ERROR: Spider error processing <GET https://collegedunia.com/college/2155-jawaharlal-nehru-rajkeeya-mahavidyalaya-jnrm-port-blair/placement> (referer: None)
+Traceback (most recent call last):
+  File "/opt/WORK/final_scraper-main/myenv/lib/python3.12/site-packages/twisted/internet/defer.py", line 1078, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py", line 99, in parse
+    self.all_data[college_name]['Placement'] = self.parse_placement(response, college_name)
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py", line 180, in parse_placement
+    soup = BeautifulSoup(content_html, 'html.parser')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/WORK/final_scraper-main/myenv/lib/python3.12/site-packages/bs4/__init__.py", line 315, in __init__
+    elif len(markup) <= 256 and (
+         ^^^^^^^^^^^
+TypeError: object of type 'NoneType' has no len()
+2024-10-01 10:28:52 [scrapy.extensions.logstats] INFO: Crawled 12 pages (at 12 pages/min), scraped 0 items (at 0 items/min)
+2024-10-01 10:29:04 [scrapy.core.scraper] ERROR: Spider error processing <GET https://collegedunia.com/college/2155-jawaharlal-nehru-rajkeeya-mahavidyalaya-jnrm-port-blair/hostel> (referer: None)
+Traceback (most recent call last):
+  File "/opt/WORK/final_scraper-main/myenv/lib/python3.12/site-packages/twisted/internet/defer.py", line 1078, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py", line 105, in parse
+    self.all_data[college_name]['Hostel'] = self.parse_hostel(response, college_name)
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py", line 270, in parse_hostel
+    soup = BeautifulSoup(content_html, 'html.parser')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/WORK/final_scraper-main/myenv/lib/python3.12/site-packages/bs4/__init__.py", line 315, in __init__
+    elif len(markup) <= 256 and (
+         ^^^^^^^^^^^
+TypeError: object of type 'NoneType' has no len()
+2024-10-01 10:29:11 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 https://collegedunia.com/college/2155-jawaharlal-nehru-rajkeeya-mahavidyalaya-jnrm-port-blair/ranking>: HTTP status code is not handled or not allowed
+2024-10-01 10:29:15 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 https://collegedunia.com/college/2155-jawaharlal-nehru-rajkeeya-mahavidyalaya-jnrm-port-blair/cutoff>: HTTP status code is not handled or not allowed
+2024-10-01 10:29:21 [scrapy.core.scraper] ERROR: Spider error processing <GET https://collegedunia.com/college/2804-mahatma-gandhi-government-college-mayabander> (referer: None)
+Traceback (most recent call last):
+  File "/opt/WORK/final_scraper-main/myenv/lib/python3.12/site-packages/twisted/internet/defer.py", line 1078, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py", line 127, in parse
+    self.all_data[college_name]['General_Info'] = self.parse_general_info(response, college_name)
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py", line 134, in parse_general_info
+    soup = BeautifulSoup(content_html, 'html.parser')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/WORK/final_scraper-main/myenv/lib/python3.12/site-packages/bs4/__init__.py", line 315, in __init__
+    elif len(markup) <= 256 and (
+         ^^^^^^^^^^^
+TypeError: object of type 'NoneType' has no len()
+2024-10-01 10:29:26 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 https://collegedunia.com/college/2804-mahatma-gandhi-government-college-mayabander/admission>: HTTP status code is not handled or not allowed
+2024-10-01 10:29:31 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 https://collegedunia.com/college/2804-mahatma-gandhi-government-college-mayabander/placement>: HTTP status code is not handled or not allowed
+2024-10-01 10:29:50 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 https://collegedunia.com/college/2804-mahatma-gandhi-government-college-mayabander/hostel>: HTTP status code is not handled or not allowed
+2024-10-01 10:29:52 [scrapy.extensions.logstats] INFO: Crawled 22 pages (at 10 pages/min), scraped 0 items (at 0 items/min)
+2024-10-01 10:29:56 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 https://collegedunia.com/college/2804-mahatma-gandhi-government-college-mayabander/ranking>: HTTP status code is not handled or not allowed
+2024-10-01 10:30:02 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 https://collegedunia.com/college/2804-mahatma-gandhi-government-college-mayabander/cutoff>: HTTP status code is not handled or not allowed
+2024-10-01 10:30:09 [py.warnings] WARNING: /opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py:147: FutureWarning: Passing literal html to 'read_html' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+  df = pd.read_html(str(section))[0]
+
+2024-10-01 10:30:09 [py.warnings] WARNING: /opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py:471: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead.
+  df = df.applymap(lambda x: x.strip() if isinstance(x, str) else x)
+
+2024-10-01 10:30:16 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 https://collegedunia.com/college/23362-tagore-government-college-of-education-port-blair/admission>: HTTP status code is not handled or not allowed
+2024-10-01 10:30:22 [scrapy.core.scraper] ERROR: Spider error processing <GET https://collegedunia.com/college/23362-tagore-government-college-of-education-port-blair/placement> (referer: None)
+Traceback (most recent call last):
+  File "/opt/WORK/final_scraper-main/myenv/lib/python3.12/site-packages/twisted/internet/defer.py", line 1078, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py", line 99, in parse
+    self.all_data[college_name]['Placement'] = self.parse_placement(response, college_name)
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py", line 180, in parse_placement
+    soup = BeautifulSoup(content_html, 'html.parser')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/WORK/final_scraper-main/myenv/lib/python3.12/site-packages/bs4/__init__.py", line 315, in __init__
+    elif len(markup) <= 256 and (
+         ^^^^^^^^^^^
+TypeError: object of type 'NoneType' has no len()
+2024-10-01 10:30:39 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 https://collegedunia.com/college/23362-tagore-government-college-of-education-port-blair/hostel>: HTTP status code is not handled or not allowed
+2024-10-01 10:30:44 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 https://collegedunia.com/college/23362-tagore-government-college-of-education-port-blair/ranking>: HTTP status code is not handled or not allowed
+2024-10-01 10:30:50 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 https://collegedunia.com/college/23362-tagore-government-college-of-education-port-blair/cutoff>: HTTP status code is not handled or not allowed
+2024-10-01 10:30:52 [scrapy.extensions.logstats] INFO: Crawled 32 pages (at 10 pages/min), scraped 0 items (at 0 items/min)
+2024-10-01 10:30:56 [py.warnings] WARNING: /opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py:147: FutureWarning: Passing literal html to 'read_html' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+  df = pd.read_html(str(section))[0]
+
+2024-10-01 10:30:56 [py.warnings] WARNING: /opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py:471: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead.
+  df = df.applymap(lambda x: x.strip() if isinstance(x, str) else x)
+
+2024-10-01 10:30:56 [py.warnings] WARNING: /opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py:147: FutureWarning: Passing literal html to 'read_html' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+  df = pd.read_html(str(section))[0]
+
+2024-10-01 10:30:56 [py.warnings] WARNING: /opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py:471: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead.
+  df = df.applymap(lambda x: x.strip() if isinstance(x, str) else x)
+
+2024-10-01 10:30:56 [py.warnings] WARNING: /opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py:147: FutureWarning: Passing literal html to 'read_html' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+  df = pd.read_html(str(section))[0]
+
+2024-10-01 10:30:56 [py.warnings] WARNING: /opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py:471: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead.
+  df = df.applymap(lambda x: x.strip() if isinstance(x, str) else x)
+
+2024-10-01 10:31:07 [scrapy.core.scraper] ERROR: Spider error processing <GET https://collegedunia.com/college/59214-andaman-and-nicobar-islands-institute-of-medical-sciences-aniims-port-blair/placement> (referer: None)
+Traceback (most recent call last):
+  File "/opt/WORK/final_scraper-main/myenv/lib/python3.12/site-packages/twisted/internet/defer.py", line 1078, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py", line 99, in parse
+    self.all_data[college_name]['Placement'] = self.parse_placement(response, college_name)
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py", line 180, in parse_placement
+    soup = BeautifulSoup(content_html, 'html.parser')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/WORK/final_scraper-main/myenv/lib/python3.12/site-packages/bs4/__init__.py", line 315, in __init__
+    elif len(markup) <= 256 and (
+         ^^^^^^^^^^^
+TypeError: object of type 'NoneType' has no len()
+2024-10-01 10:31:22 [py.warnings] WARNING: /opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py:283: FutureWarning: Passing literal html to 'read_html' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+  df = pd.read_html(str(section))[0]
+
+2024-10-01 10:31:22 [py.warnings] WARNING: /opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py:471: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead.
+  df = df.applymap(lambda x: x.strip() if isinstance(x, str) else x)
+
+2024-10-01 10:31:28 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 https://collegedunia.com/college/59214-andaman-and-nicobar-islands-institute-of-medical-sciences-aniims-port-blair/ranking>: HTTP status code is not handled or not allowed
+2024-10-01 10:31:35 [py.warnings] WARNING: /opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py:216: FutureWarning: Passing literal html to 'read_html' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+  df = pd.read_html(str(section))[0]
+
+2024-10-01 10:31:35 [py.warnings] WARNING: /opt/WORK/final_scraper-main/Datascraper/spiders/final_scraper.py:471: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead.
+  df = df.applymap(lambda x: x.strip() if isinstance(x, str) else x)
+
+2024-10-01 10:31:35 [scrapy.core.engine] INFO: Closing spider (finished)
+2024-10-01 10:31:35 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 14878,
+ 'downloader/request_count': 40,
+ 'downloader/request_method_count/GET': 40,
+ 'downloader/response_bytes': 3465408,
+ 'downloader/response_count': 40,
+ 'downloader/response_status_count/200': 25,
+ 'downloader/response_status_count/404': 15,
+ 'elapsed_time_seconds': 222.768641,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2024, 10, 1, 5, 1, 35, 418431, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 18077092,
+ 'httpcompression/response_count': 40,
+ 'httperror/response_ignored_count': 15,
+ 'httperror/response_ignored_status_count/404': 15,
+ 'log_count/ERROR': 7,
+ 'log_count/INFO': 29,
+ 'log_count/WARNING': 22,
+ 'memusage/max': 132661248,
+ 'memusage/startup': 102305792,
+ 'response_received_count': 40,
+ 'scheduler/dequeued': 40,
+ 'scheduler/dequeued/memory': 40,
+ 'scheduler/enqueued': 40,
+ 'scheduler/enqueued/memory': 40,
+ 'spider_exceptions/TypeError': 7,
+ 'start_time': datetime.datetime(2024, 10, 1, 4, 57, 52, 649790, tzinfo=datetime.timezone.utc)}
+2024-10-01 10:31:35 [scrapy.core.engine] INFO: Spider closed (finished)
+2024-10-01 10:31:35 [root] INFO: Process finished

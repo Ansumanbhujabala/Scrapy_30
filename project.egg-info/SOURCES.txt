@@ -1,0 +1,13 @@
+setup.py
+Datascraper/__init__.py
+Datascraper/items.py
+Datascraper/middlewares.py
+Datascraper/pipelines.py
+Datascraper/settings.py
+Datascraper/spiders/__init__.py
+Datascraper/spiders/final_scraper.py
+project.egg-info/PKG-INFO
+project.egg-info/SOURCES.txt
+project.egg-info/dependency_links.txt
+project.egg-info/entry_points.txt
+project.egg-info/top_level.txt
